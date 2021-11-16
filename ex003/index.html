@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<title>Sucesso E antecesso</title>
+</head>
+<body>
+	<div class="container">
+		<div class="card-panel z-dept-5">
+			<input type='number' name='numero' placeholder='numero'>
+			<br>
+		
+		</div>
+	</div>
+
+
+	<div class="center">
+		<button class="btn"  onclick='sucesso()'>ok</button>
+	</div>
+
+	<aside>
+		<p class="center-align" id="result">
+		</p>
+	</aside>
+
+
+
+	<script>
+	   function sucesso(){
+	      numero = document.querySelector('[name="numero"]').value
+	      result  = document.querySelector("#result")
+
+	      resultado = parseInt(numero)
+
+	      result.innerHTML=`o Sucessor de ${resultado} e ${resultado+1} e o antecessor e ${resultado-1}`
+		}
+	</script>
+
+</body>
+</html>

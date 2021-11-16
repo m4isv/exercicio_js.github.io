@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>tocando musica em js</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="card-panel">
+		<img src="https://i.pinimg.com/originals/6c/3a/9f/6c3a9fa078611394234d2f4da9a94ef2.gif" class="circle responsive-img" alt="gif da musica"></img>
+
+   <center>
+		<audio controls id="myAudio">
+		  <source src="horse.ogg" type="audio/ogg">
+		  play
+		  <source src="edit.mp3" type="audio/mpeg">
+		   Your browser does not support the audio element.
+		</audio>
+		</center>
+		</div>
+
+
+
+	</div>
+  <!-- Project -->
+
+  <script >
+
+	  let x = document.getElementById("#myAudio")
+
+	  function playAudio()
+	    	{ x.play() } 
+
+
+	    function pauseAudio()
+	   	 { x.pause() } 
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+@font-face {
+font-family:open-sans;
+src: url(FlorPersonalUseRegular-DOyBx.ttf);
+}
+
+
+p {
+font-family:open-sans;
+text-shadow:3px 3px 4px blue;
+font-size:30px;
+}
