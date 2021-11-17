@@ -8,8 +8,8 @@ btn.onclick = function(){
 	let conta = nome.value.match(/a/g).length
 
 	result.innerHTML=`
-	seu Nome e  <b>${nome.value}</b>
-	Seu Nome tem <b>${conta}</b> letras a`
+	o texto   <b>${nome.value}</b>
+	 tem <b>${conta}</b> letras a`
    		
 
 	document.querySelector("input").value = ''	
