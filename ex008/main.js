@@ -16,7 +16,7 @@ function dinheiro(){
 
 	let p = document.createElement('p')
 	p.setAttribute('class','card-panel red z-depth-5')
-	p.innerHTML=`texto vazio`
+	p.innerHTML=`o texto esta vazio`
 
 	result.appendChild(p)
 	document.querySelector('[name="dinheiro"]').value = '' 
