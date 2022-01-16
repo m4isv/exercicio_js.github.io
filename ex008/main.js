@@ -9,5 +9,6 @@ function dinheiro(){
 	p.innerHTML=`Com ${real}R$ voce pode compra ${dolar.toFixed(1)} Dolares U$.`
 
 	result.appendChild(p)
+        document.query.Selector('input').value =''
 
 }
