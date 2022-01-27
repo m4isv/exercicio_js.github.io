@@ -1,7 +1,7 @@
 
 
 
-document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/08/c7/50/08c750f04ab654dbef2c9d8c294f8a0b--gears-beautiful-places.jpg')";
+document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/d0/28/3f/d0283f4eb78abd248935d692d0d96f29.gif')";
 
 
 
