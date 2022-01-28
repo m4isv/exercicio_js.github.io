@@ -1,4 +1,4 @@
-alert(`escreva um programa que pergunte o salario do funcionario e calcule o valor do seu aumento.
+//alert(`escreva um programa que pergunte o salario do funcionario e calcule o valor do seu aumento.
 Para salario superiores a R$1.250.00 ,calcule um aumento de 10%.
 Para os inferiores ou inguais,
 o aumento e de 15%.`)
