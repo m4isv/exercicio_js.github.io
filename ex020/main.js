@@ -1,4 +1,4 @@
-alert("escrever um programa que mostre se tem santo no nome")
+//alert("escrever um programa que mostre se tem santo no nome")
 
 
 
