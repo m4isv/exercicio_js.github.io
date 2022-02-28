@@ -1,0 +1,18 @@
+
+
+body
+{
+    background: url('https://i.pinimg.com/736x/aa/b6/4c/aab64c1a2c5fad2d857b9ed3663ef36d.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+
+input {
+	color:white;
+}
+
+i {
+color:red;
+}
