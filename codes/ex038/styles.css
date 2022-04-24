@@ -3,3 +3,11 @@ p {font-size:2rem;}
 li {
 padding: 5px;
 }
+
+body
+{
+    background: url('https://hypescience.com/wp-content/uploads/2014/09/David-Whyte-gifs-2.gif') fixed;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+}
