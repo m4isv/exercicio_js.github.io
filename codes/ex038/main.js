@@ -32,6 +32,7 @@ function criarTarefa(textoInput){
 	//console.log(textoInput)
 	const li=criarLi()
 	li.innerText=textoInput
+        li.setAttribute('class', 'white-text')
 	tarefas.appendChild(li)
 	botaoBotaoApagar(li)
 }
