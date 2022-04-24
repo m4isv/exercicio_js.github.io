@@ -3,12 +3,12 @@ p {font-size:2rem;}
 li {
 padding: 5px;
 }
-
 body
 {
-    background: url('https://hypescience.com/wp-content/uploads/2014/09/David-Whyte-gifs-2.gif') fixed;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: url('https://i.pinimg.com/736x/56/0a/b3/560ab37b1bd593296005dc3f00be984f--email-marketing-internet-marketing.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
 }
 
 
